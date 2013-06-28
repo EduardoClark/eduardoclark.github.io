@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Prueba"
+date:   2013-06-27 13:17:15
+categories: jekyll update
+---
+
+
+
+Jekyll is a static web site generator written in Ruby. It can transform various text markups, using a templating language, into static html. The resulting site can be served by almost any web server without requiring additional components such as php. Jekyll is the tool used to produce Github's pages.
+
+This article discusses how to produce both a static site and a blog using Jekyll and org. Rather than writing a markup processor for org files, I have relied on org's html export features to generate files that can be processed by Jekyll.
+
+Org already has an excellent html export engine. However, it lacks built in support for blogging. Using Jekyll also gives more control over the final appearance of your site.
+
+Publishing your site with org and Jekyll involves three steps:
+
+-  write your page content using org.
+-  use org to export your pages to html in the Jekyll project directory.
+-  run Jekyll to convert your html pages exported from org into your final site.
+
+By default Jekyll produces its output in the _site directory of Jekyll's working directory. This is a self contained version of your site, which can be deployed to your web server. The files in _site are completely self contained, so all you need to do is to copy them to your web server. Methods include using ftp, rsync or a git post commit hook. You can configure where Jekyll puts its published files in _config.yml.
+
+Essentially, I am using org to produce everything between the <body> tags on the page and Jekyll to produce the rest. Note that you can easily embed html content in your org pages using the +BEGIN_HTML tag.
+
