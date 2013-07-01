@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome to my blog1111"
+date:   2013-06-28 13:17:15
+categories: jekyll update
+---
+
+<p align="justify">Welcome to my blog. I'm pretty excited to be writing the first entry for this and I expect I should be able to provide some interesting posts in the future. First of all I would like to introduce myself a bit. </p>
+
+<p align="justify" >My name is Eduardo Clark. I a 24 year old political scientist/economist based out of Mexico City, although originally from the mexican state of Guanajuato. For the past two years I've been lucky enough to work at <a href="http://imco.org.mx" target="_blank">IMCO </a> a public policy think tank here in Mexico City. My work at IMCO mainly focuses on crime and violence in Mexico and the impact this has on the mexican economy.</p> 
+
+
+
+

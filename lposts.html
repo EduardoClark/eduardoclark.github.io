@@ -1,15 +1,18 @@
 ---
-layout: default
-title: Your New Jekyll Site
+layout: default1
+title: My Blog
 ---
 
-<div id="home">
-  <h2>Blog Posts</h2>
-  <ul class="posts">
-    <!-- This loops through the paginated posts -->
+<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>{{post.excerpt}}</li>
-   {% endfor %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
 
 <!-- Pagination links -->
 <div class="pagination">
@@ -25,9 +28,3 @@ title: Your New Jekyll Site
     <span class="next ">Next</span>
   {% endif %}
 </div>
-  </ul>
-
-</div>
-</div>
-
-
