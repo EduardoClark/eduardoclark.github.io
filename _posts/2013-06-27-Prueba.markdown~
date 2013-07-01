@@ -9,15 +9,11 @@ categories: jekyll update
 
 <p align="justify" >My name is Eduardo Clark. I a 24 year old political scientist/economist based out of Mexico City, although originally from the mexican state of Guanajuato. For the past two years I've been lucky enough to work at <a href="http://imco.org.mx" target="_blank">IMCO </a> a public policy think tank here in Mexico City. My work at IMCO mainly focuses on crime and violence in Mexico and the impact this has on the mexican economy.</p> 
 
-<!-- BarChart generated in R 2.15.3 by googleVis 0.4.2 package -->
 
-<!-- Wed Apr 3 16:28:36 2013 -->
-
-<!-- jsHeader -->
 
 <script type="text/javascript">
  
-// jsData
+
 function gvisDataBarChartID6c1b1ccab3cd () {
   var data = new google.visualization.DataTable();
   var datajson =
@@ -37,7 +33,7 @@ data.addRows(datajson);
 return(data);
 }
  
-// jsDrawChart
+
 function drawChartBarChartID6c1b1ccab3cd() {
   var data = gvisDataBarChartID6c1b1ccab3cd();
   var options = {};
@@ -63,13 +59,13 @@ options["hAxis"] = {
 }
   
  
-// jsDisplayChart
+
 (function() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   var chartid = "corechart";
 
-  // Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+
   var i, newPackage = true;
   for (i = 0; newPackage && i < pkgs.length; i++) {
     if (pkgs[i] === chartid)
@@ -78,21 +74,19 @@ options["hAxis"] = {
   if (newPackage)
     pkgs.push(chartid);
 
-  // Add the drawChart function to the global list of callbacks
+
   callbacks.push(drawChartBarChartID6c1b1ccab3cd);
 })();
 function displayChartBarChartID6c1b1ccab3cd() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
-  // The timeout is set to 100 because otherwise the container div we are
-  // targeting might not be part of the document yet
+
   window.__gvisLoad = setTimeout(function() {
     var pkgCount = pkgs.length;
     google.load("visualization", "1", { packages:pkgs, callback: function() {
       if (pkgCount != pkgs.length) {
-        // Race condition where another setTimeout call snuck in after us; if
-        // that call added a package, we must not shift its callback
+
         return;
       }
       while (callbacks.length > 0)
@@ -101,18 +95,15 @@ function displayChartBarChartID6c1b1ccab3cd() {
   }, 100);
 }
  
-// jsFooter
- </script>
+
+</script>
  
-
-<!-- jsChart -->
-
 <script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID6c1b1ccab3cd"></script>
  
-
-<!-- divChart -->
 
 <div id="BarChartID6c1b1ccab3cd"
   style="width: 300px; height: 300px;">
 </div>
+
+
 
