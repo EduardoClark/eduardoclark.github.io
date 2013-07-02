@@ -101,6 +101,14 @@ header {
   position:fixed;
 }
 
+language {
+  width:270px;
+  float:left;
+  position:fixed;
+  top:10px;
+  right:50px;
+}
+
 header ul {
   list-style:none;
   height:40px;
