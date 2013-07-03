@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+<footer>
+<p></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This blog is powered by <a href="http://jekyllrb.com/">Jekyll</a> hosted by <a href="https://github.com">GitHub</a> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and uses <a href="https://github.com/orderedlist">Steve Smith's</a> Minimal theme. <p></p>
+</footer>
 <language><img src="http://www.crwflags.com/fotw/misc/wmx.gif"> <a href="http://eduardoclark.github.io/Espanol">Español</a>
- <img src="http://www.crwflags.com/fotw/misc/wgb.gif"> <a href="http://eduardoclark.github.io">Ingles</a></language>
+ <img src="http://www.crwflags.com/fotw/misc/wgb.gif"> <a href="http://eduardoclark.github.io">English</a></language>
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -28,9 +32,6 @@
 
    
       </header>
-<footer>
-This blog is powered by <a href="http://jekyllrb.com/">Jekyll</a>, hosted by <a href="https://github.com">GitHub</a> and uses <a href="https://github.com/orderedlist">Steve Smith's</a> Minimal theme.  
-</footer>
       <section>
         <h1>        
 <a name="Welcome to my github page" class="anchor" href="#Welcome to my github page"><span class="octicon octicon-link"></span></a>About Me</h1>

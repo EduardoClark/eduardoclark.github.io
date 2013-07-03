@@ -38,6 +38,18 @@ a {
   text-decoration:none;
 }
 
+footer a {
+  color:white;
+  font-weight:400;
+  text-decoration:none;
+}
+
+ab {
+  color: white;
+  font-weight:400;
+  text-decoration:none;
+}
+
 a small {
   font-size:11px;
   color:#777;
@@ -100,7 +112,7 @@ header {
   float:left;
   position:fixed;
   left: 50px;
-}
+  }
 
 language {
   width:270px;
@@ -109,6 +121,8 @@ language {
   top:10px;
   left:50px;
 }
+
+
 
 header ul {
   line-height:1;
@@ -175,11 +189,15 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:10000px;
   float:left;
   position:fixed;
-  bottom:50px;
-  left: 50px;
+  bottom:0px;
+  left: 0px;
+  background-color:grey;
+  border-top-style:solid;
+  border-top-color:silver;
+  
 }
 
 @media print, screen and (max-width: 960px) {

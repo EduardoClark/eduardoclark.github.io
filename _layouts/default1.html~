@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
+<footer>
+<p></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This blog is powered by <a href="http://jekyllrb.com/">Jekyll</a> hosted by <a href="https://github.com">GitHub</a> </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and uses <a href="https://github.com/orderedlist">Steve Smith's</a> Minimal theme. <p></p>
+</footer>
 <language><img src="http://www.crwflags.com/fotw/misc/wmx.gif"> <a href="http://eduardoclark.github.io/Espanol">Español</a>
  <img src="http://www.crwflags.com/fotw/misc/wgb.gif"> <a href="http://eduardoclark.github.io">English</a></language>
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>EduardoClark</title>
+    <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
@@ -18,7 +22,7 @@
     <div class="wrapper">
       <header>
       <h1>Eduardo Clark</h1>
-      <h3><a href="/index.html">Home</a><a href="/about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a><a href="/archive.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archive</a> </h3> 
+      <h3><a href="/index.html">Home</a><a href="/about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a><a href="archive.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archive</a> </h3> 
       <img style="border:1px solid gray;background-color:black;padding:3px;" src="https://si0.twimg.com/profile_images/3571438389/17395a066b626f09d2a05dfffc34ac4b.jpeg" width="192" height="192" > 
 
       <h3><br/>Contact me: </h3>
@@ -26,13 +30,8 @@
       <p>Twitter <a href="https://twitter.com/EduardoClark" target="_blank">@EduardoClark</a></p>
       <p class="view"><a href="https://github.com/EduardoClark">View my GitHub proyects</a></p>
 
-   
+  
       </header>
-<footer>
-This blog is powered by <a href="http://jekyllrb.com/">Jekyll</a>, hosted by <a href="https://github.com">GitHub</a> and uses <a href="https://github.com/orderedlist">Steve Smith's</a> Minimal theme.  
-</footer>
-This blog is powered by <a href="http://jekyllrb.com/">Jekyll</a>, hosted by <a href="https://github.com">GitHub</a> and uses <a href="https://github.com/orderedlist">Steve Smith's</a> Minimal theme.  
-</footer>
       <section>
 
                 {{ content }}
