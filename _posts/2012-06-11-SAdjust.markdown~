@@ -13,7 +13,7 @@ categories: jekyll update
 
 <p align="justify"> Seasonal Factors </p>
 
-<p align="justify"> We knew of a series of techniques that are used to remove these ciclical factors from time series, this is a procedure known as <a href="http://en.wikipedia.org/wiki/Seasonal_adjustment" target="blank"> seasonal adjustment</a>. But before actually getting to the adjustment phase we had to inspect the series to look for marked differences between months, so we built a seasonal factors graph by period. This graph helps us see how the number of homicides for a particular month vary from the yearly mean and also how this variation changes over time  </p>
+<p align="justify"> We knew of a series of techniques that are used to remove these ciclical factors from time series, this is a procedure known as <a href="http://en.wikipedia.org/wiki/Seasonal_adjustment" target="blank"> seasonal adjustment</a>. Firstly we had to visually inspect the series to look for marked differences between months, so we built a seasonal factors graph by period. This graph helps us see how the number of homicides for a particular month varies from the yearly mean and also how this variation changes over time  </p>
 
 <img src="/Frames/SFactors.png">
 
