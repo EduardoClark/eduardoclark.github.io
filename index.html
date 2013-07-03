@@ -8,11 +8,16 @@ title: Your New Jekyll Site
   <ul class="posts">
     <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>{{post.excerpt}}</li>
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}"><b>{{ post.title }}</b></a>{{post.excerpt}}
+<h3><a href="{{post.url}}"> <b>Read More</b></a></h3></li>
    {% endfor %}
+
+
 
 <!-- Pagination links -->
 <div class="pagination">
+</br>
+</br>
   {% if paginator.previous_page %}
     <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
   {% else %}

@@ -1,3 +1,6 @@
 name: Eduardo Clark
 pygments: true
 paginate: 5
+tags:
+- jekyll
+- code
