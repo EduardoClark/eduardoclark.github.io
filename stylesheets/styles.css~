@@ -99,6 +99,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  left: 50px;
 }
 
 language {
@@ -106,7 +107,7 @@ language {
   float:left;
   position:fixed;
   top:10px;
-  left:165px;
+  left:50px;
 }
 
 header ul {
@@ -178,6 +179,7 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+  left: 50px;
 }
 
 @media print, screen and (max-width: 960px) {
