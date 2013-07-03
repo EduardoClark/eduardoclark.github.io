@@ -38,7 +38,7 @@ a {
   text-decoration:none;
 }
 
-a footer {
+footer a {
   color:white;
   font-weight:400;
   text-decoration:none;
@@ -172,9 +172,11 @@ header ul a strong {
 }
 
 section {
-  width:700px;
+  width:650px;
   float:right;
   padding-bottom:50px;
+  
+  padding-right: 0px:
 }
 
 small {
