@@ -16,7 +16,7 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>EduardoClark</title>
+    <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
@@ -31,16 +31,12 @@
       <h1>Eduardo Clark</h1>
       <h3><a href="/index.html">Home</a><a href="/about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a><a href="archive.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archive</a> </h3> 
 
-<h1>Latest entries</h1> {% for post in site.posts limit:4 %} <h2> <a href="/" rel="bookmark" title="Permanent link to ">{{ post.title }}</a> </h2> <span>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</span> <p> {{ post.excerpt }} </p> {% endfor %} - See more at: http://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/#sthash.CoyzmJ4w.dpuf
-   
+<h2>Latest posts</h2> {% for post in site.posts limit:5 %} <h3> <a href="/" rel="bookmark" title="Permanent link to ">{{ post.title }}</a> </h3> {% endfor %} 
+  
       </header>
       <section>
-        <h1>        
-<a name="Welcome to my github page" class="anchor" href="#Welcome to my github page"><span class="octicon octicon-link"></span></a>About Me</h1>
 
-      <p align="justify">  I'm Eduardo. Most of my work is about crime and violence in Mexico, mainly  that related to drug trafficking. My main interest is illegal drug markets so you should expect most of my posts to be about that. Aditionally you might also find other proyects that I do with my friends and collegues at <a href="http://imco.org.mx/home_en/">IMCO</a>, a Mexico City based public policy think tank. </p>
-
-              
+                {{ content }}
 
     </body>
 </html>
