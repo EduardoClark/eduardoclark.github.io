@@ -47,7 +47,7 @@
       <h1>Eduardo Clark</h1>
       <h3><a href="/index.html">Home</a><a href="/about.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a><a href="archive.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Archive</a> </h3> 
 
-<h2>Latest posts</h2> {% for post in site.posts limit:5 %} <h3> {{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }} - <a href="/" rel="bookmark" title="Permanent link to ">{{ post.title }}</a> </h3>  {% endfor %} 
+<h2>Latest posts</h2> {% for post in site.posts limit:5 %} <h3> {{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }} - <a href="{{post.url}}" rel="bookmark" title="Permanent link to ">{{ post.title }}</a> </h3>  {% endfor %} 
   
       </header>
       <section>
