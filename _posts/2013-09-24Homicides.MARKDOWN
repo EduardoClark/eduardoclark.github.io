@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Seasonal adjustment of Mexico's homicide database"
-date:   2013-07-02 13:17:15
+title:  "Football and Homicides in Mexico"
+date:   2013-09-24 13:17:15
 categories: jekyll update
 ---
 
-<p align="justify"> PruebaEvery month (around the 15th) the national public safety system <a href="http://www.secretariadoejecutivo.gob.mx/">(SNSP)</a> releases information regarding the number of crimes commited in Mexico, this information comes from the local (state) district attorney's office who compile information about the number of crimes commited for something like 10 or so different fellonies and then submit it to the SNSP who publishes the data at the state and national level. </p>
+<p align="justify"> Every month (around the 15th) the national public safety system <a href="http://www.secretariadoejecutivo.gob.mx/">(SNSP)</a> releases information regarding the number of crimes commited in Mexico, this information comes from the local (state) district attorney's office who compile information about the number of crimes commited for something like 10 or so different fellonies and then submit it to the SNSP who publishes the data at the state and national level. </p>
 
 <p align="justify">Due to the constant release of data, this particular database proves particularly useful for government reporting about the state of public safety in the country for a particular month. Nevertheless consecutive month comparison may not be possible because not all months are created equal (I'll explain further in the next paragraphs). So <a href="http://www.twitter.com/ahope71" target="_blank">Alejandro Hope </a> and me at IMCO decided it could be good idea to create a database that we could compare easily with any other month of the database (which runs from 1997 to the present). We chose to focus our efforts on the homicide (intentional) time series. We chose this particular series for a couple of very simple reasons. Homicide is probably the crime with the lowest under reportment rate (which should in theory also render it the most consistent in the database), and it's certainly the most serious crime, which should then help us assess the state of public safety better than the other available crimes. </p>
 
