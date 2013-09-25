@@ -42,6 +42,4 @@ categories: jekyll update
 
 
 
- 
-
 
