@@ -39,11 +39,11 @@
 		<div class="header">
 			<div class="container">
 				<h1 class='title'> <img src="http://imco.org.mx/calculadora-r/img/logo_imco.png" alt="logo" /> | Envipe 2013
-					<a href="https://twitter.com/imcomx">
+					<a href="https://twitter.com/imcomx" target=”_blank”>
 					<span class="icon twitter"></span>
 					</a>
 
-					<a href="https://www.facebook.com/imcomx">
+					<a href="https://www.facebook.com/imcomx" target=”_blank”>
 						<span class="icon facebook"></span>
 					</a>
 				</h1>
@@ -53,9 +53,9 @@
 		
 		</div>
 		<div id='content' class='container'>
-			<h2>Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE 2013) 
+			<h2>Resultados de la Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE 2013) 
 			</h2>
-			<a class='descargar top' href="https://github.com/EduardoClark/Envipe2013" >
+			<a class='descargar top' href="https://github.com/EduardoClark/Envipe2013" target=”_blank”>
 				<img src="http://imco.org.mx/calculadora-r/img/descargar.png" alt="" />
 				Descargar <br /> archivos
 			</a>
@@ -142,7 +142,7 @@ El contenido de esta encuesta fue declarado de Interés Nacional por la Junta de
 		</div>
     </div></div></div>	
    	<div id='footer'>
-		<img src="http://imco.org.mx/calculadora-r/img/logo-footer.png" alt="logo" />
+		<img src="http://imco.org.mx/calculadora-r/img/logo-footer.png" alt="logo" href="http://imco.org.mx/home/" />
 	</div>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
 </body>
