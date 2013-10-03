@@ -4,7 +4,7 @@ $(function(){
 		min_height		    :   1500,	//Min height allowed (in pixels)
 		vertical_center		: 	1,
 		slides : [
-			{image : '/calculadora-r/img/fondo.jpg' }
+			{image : '../img/fondo.jpg' }
 		]
 	};
     $('#supersized').supersized(); 
