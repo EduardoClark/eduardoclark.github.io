@@ -132,7 +132,7 @@ El contenido de esta encuesta fue declarado de Interés Nacional por la Junta de
 			</div>
 		</div>
 		<div id='info-main' class='container'>
-			<iframe src="http://glimmer.rstudio.com/eduardoclark/envipe2013" id='aire' width="1160" height="520" frameBorder="0" name="calc-aire" align="middle">></iframe>
+			<iframe src="http://glimmer.rstudio.com/eduardoclark/envipe2013" id='aire' width="1160" height="550" frameBorder="0" name="calc-aire" align="middle">></iframe>
 		</div>
 
 	<div id='share' class='container'>
