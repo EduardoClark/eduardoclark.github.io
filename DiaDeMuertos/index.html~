@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Principales Resultados de la Encuesta de Victimización Personal 2013 | IMCO</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/stickyFooter.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/supersized.core.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+
+	<link rel="canonical" href="http://eduardoclark.github.io/envipe/"/>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/supersized.3.1.3.core.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/interactions.js"></script>
+
+
+
+	<meta property="fb:app_id" content="155988631079054" /> 
+	<meta property="og:url" content="http://eduardoclark.github.io/envipe/" /> 
+	<meta property="og:title" content="Principales Resultados de la Encuesta de Victimización Personal 2013 | IMCO" /> 
+	<meta property="og:image" content="http://imco.org.mx/calculadora-r/img/logo_imco.png" /> 
+
+</head>
+<body background-color="#000000">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=276670679108085";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="supersized"></div>
+ 	<div id="wrap"><div id="main" class="clearfix"><div id="topBackRepeat">
+		<div class="header">
+			<div class="container">
+				<h1 class='title' > <img src="img/olan.png" width=100% height=100% alt="logo" href="http://imco.org.mx/home/" />
+
+
+
+
+					<a href="https://twitter.com/share" target=”_blank”>
+					<span class="icon twitter"></span>
+					</a>
+					<a href="https://www.facebook.com/imcomx" target=”_blank”>
+						<span class="icon facebook"></span>
+					</a>
+				</h1>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		
+		</div>
+		<div id='content' class='container'>
+			<h2 > ¿ De que morimos mexicanos?  
+			</h2>
+
+			<a class='descargar top' href="https://github.com/EduardoClark/Envipe2013" target=”_blank”>
+				<img src="http://imco.org.mx/calculadora-r/img/descargar.png" alt="" />
+				Descargar <br /> archivos
+			</a>
+			
+			<div class="column left" >
+				<div class='scroll'>
+				<p>
+
+<span> Lorem ipsum </span>
+</n>
+<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+</br>
+
+<span>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</span>
+</n> 
+
+<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+					
+			
+				</p>
+				</div>
+			</div>
+		</div>
+		<div id='info-main' class='container'>
+			<iframe src="http://glimmer.rstudio.com/eduardoclark/Aire/" id='aire' width="1160" height="850" frameBorder="0" name="calc-aire" align="middle">></iframe>
+		</div>
+
+	<div id='share' class='container'>
+			<div class="column right">
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							</div>
+		</div>
+    </div></div></div>	
+   	<div id='footer' background-color=#808080 >
+		<img src="http://imco.org.mx/calculadora-r/img/logo-footer.png" alt="logo" href="http://imco.org.mx/home/" />
+	</div>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42182367-1', 'eduardoclark.github.io');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
+
