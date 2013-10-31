@@ -10,11 +10,12 @@ body{background-color:"#000000";font-family:'Noto Sans', sans-serif;}
 
 h2{padding:8px 0 16px;margin:12px 0 10px;font-size:32px;background-color:rgba(255,255,255,.3);color:white;font-family:'Noto Sans', sans-serif;border-radius:11px;text-align:center;width:956px;float:left;}
 
-.icon.facebook{padding-left:20px background:url(../img/f_1.png)}
+.icon.facebook{background:url(../img/f_1.png)}
 .icon.facebook:hover{background:url(../img/f_2.png)}
 
 .column{display:inline-block;vertical-align:top;}
 .column.left{width:1115px;background-color: rgba(255,255,255,.3);color:white;padding:7px 22px 7px 23px;height:228px;overflow:hidden;margin-bottom:15px;}
+.column.left span{width:1115px;background-color: transparent;color:white;font-weight:bold;height:228px;overflow:hidden;margin-bottom:15px;font-size:22px}
 a.descargar{background-color:rgba(255,255,255,.3);text-decoration:none;font-size:33px;margin-top:1px;display:block;}
 a.descargar.top{background-color:rgba(255,255,255,.3);float:left;width:196px;font-size:19px;text-indent:4px;line-height:18px;margin-left:6px;margin-top:14px;background:rgba(255,255,255,.3);height:38px;border-radius:6px;padding:20px 1px;text-align:center;color:white;}
 a.descargar.top img{float:left;margin:-4px -11px 0 26px;}
@@ -33,5 +34,11 @@ a.descargar.top img{float:left;margin:-4px -11px 0 26px;}
 
 .share{margin:15px 0 17px;float:right;width:195px;}
 
+@font-face {
+ font-family:font1;
+ src: url(../fonts/dm.ttf);
+} 
 
-
+change{
+ font-family:font1; color:white;
+}

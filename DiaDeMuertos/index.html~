@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Principales Resultados de la Encuesta de Victimización Personal 2013 | IMCO</title>
+	<title>¿De que mueren los mexicanos? | IMCO</title>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/stickyFooter.css" media="all" />
@@ -58,7 +58,7 @@
 		
 		</div>
 		<div id='content' class='container'>
-			<h2 > ¿ De que mueren los mexicanos?  
+			<h2> ¿ De qué mueren los mexicanos?  
 			</h2>
 
 			<a class='descargar top' href="https://github.com/EduardoClark/Envipe2013" target=”_blank”>
@@ -66,7 +66,7 @@
 				Descargar <br /> archivos
 			</a>
 			
-			<div class="column left" >
+			<div class="column left" styel="font-family:DMuertos;" >
 				<div class='scroll'>
 				<p>
 
@@ -76,7 +76,7 @@
 
 </br>
 
-<span>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</span>
+<span>Finibus Bonorum et Malorum</span>
 </n> 
 
 <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
@@ -86,6 +86,9 @@
 				</div>
 			</div>
 		</div>
+
+
+
 		<div id='info-main' class='container'>
 			<iframe src="http://glimmer.rstudio.com/eduardoclark/DiaDeMuertos/" id='aire' width="1160" height="650" frameBorder="0" name="calc-aire" align="middle">></iframe>
 		</div>
