@@ -1,0 +1,19 @@
+{
+ "name": "flare",
+ "children": [
+
+{"name": "RAM_4000","size": 4748},
+{"name": "TSURU_I","size": 5871},
+{"name": "TSURU_II","size": 36380},
+{"name": "ICHI_VAN2.4L","size": 5037},
+{"name": "DART_K_TURBOCARGADO","size": 8280},
+{"name": "MAZDA-CX7_ESTATICO","size": 5109},
+{"name": "DATSUN","size": 8409},
+{"name": "F-350 5.4L","size": 8371},
+{"name": "CARIBE","size": 21965},
+{"name": "GOLF_1.6L","size": 21965}
+
+   ]
+  
+ 
+}

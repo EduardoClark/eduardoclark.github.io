@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+text {
+  font: 10px sans-serif;
+}
+
+#todos{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+ #menos{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+
+}
+ #mas{
+  position: absolute;
+  top: 45px;
+  right: 10px;
+
+}
+
+
+</style>
+<label><a href="#" onClick="location.reload(true)" id="todos" /> Todos</label>
+<label><a href="#" onClick="change()" id="menos" /> 10 Menos Aceptados</label>
+<label><a href="#" onClick="changetomas()" id="mas"/> 10 Mas Aceptados</label>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+var colors = d3.scale.linear().domain([0,26]).range(['#4D9BDE','#F25F76']); //'#4D9BDE','#F25F76'
+var labdata =
+	{
+"AUDIA3_ 2.0T":4.82308340353833,
+"AUDIAUDI_A3_1.8_T":11.6792155489406,
+"AUDIAUDI_A4_1.8T":7.19242902208202,
+"BMW325_I":3.23725981620718,
+"BMWMINI_COOPER":8.36190476190476,
+"ATOS_BY_DODGE":13.110229429015,
+"ATTITUDE":4.18232896767301,
+"ATTITUDE 1.6L":5.39520845123562,
+"AVENGER 2.0L":4.20433046037419,
+"AVENGER 2.4L":8.67795157488751,
+"CARAVAN":14.8751759389584,
+"CIRRUS 6CIL":9.71717490914836,
+"D-150_PICK_UP":18.5159620362381,
+"D-350":12.6295784381479,
+"DART":18.3000162522347,
+"DART_K_TURBOCARGADO":19.8671497584541,
+"JOURNEY":1.50159415818163,
+"NEON":11.0678276810266,
+"PT_CRUISER":4.56986622400156,
+"RAM_4000":24.7642476424764,
+"RAM_VAN_1500 MOTOR V6":12.1829290872061,
+"RAMCHARGER":17.2551149737462,
+"SHADOW":18.0619225615347,
+"SPIRIT":17.4645746725672,
+"STRATUS":11.0083272061967,
+"TOWN & COUNTRY 3.8L":6.85862516212711,
+"VERNA_BY_DODGE":9.50267681036912,
+"VOYAGER":7.35220399024162,
+"DESCONOCIDODESCONOCIDO":9.56521739130435,
+"CONTOUR":11.2936820180514,
+"COURIER":11.5971638024276,
+"ECOSPORT":8.21808625220801,
+"EDGE":2.10022873778332,
+"ESCAPE":4.66032554622518,
+"ESCAPE_2.5L":2.75218521143397,
+"ESCORT":12.0041096344414,
+"EXPEDITION":7.10883107365335,
+"EXPLORER":7.26888484788912,
+"EXPLORER_AWD":10.8258287028166,
+"F-150_PICK_UP":12.0710568533083,
+"F-250_PICK_UP":16.3985399486278,
+"F-350 5.4L":19.0180384661331,
+"F-350 5.OL":11.514857881137,
+"FIESTA":8.58359865760262,
+"FIESTA_FIRST":5.36524601832903,
+"FIESTA_IKON":9.79835274069867,
+"FIESTA_NOTCH":3.97578203834511,
+"FOCUS":5.99786445994194,
+"FREESTAR":4.60982658959538,
+"FUSION":2.73466371027347,
+"GHIA":14.9667689161554,
+"GRAN_MARQUIS":13.3396814404432,
+"KA":9.10185108325724,
+"MONDEO CORE":7.17479242069406,
+"MUSTANG":15.7068816585085,
+"MUSTANG_4.6L":6.25,
+"MYSTIQUE":12.3555903661641,
+"RANGER_PICK_UP":14.1602899718083,
+"TOPAZ":17.2963272378477,
+"WINDSTAR":8.5890609874153,
+"ASTRA 1.8L":8.52970823003787,
+"ASTRA_2.2L_ESTATICO":14.8899963534703,
+"ASTRO_VAN_ESTATICO":18.8101861759041,
+"AVEO":1.78972000322763,
+"BLAZER":12.3250738220567,
+"BUICK_CENTURY":15.7536764705882,
+"C-15_PICK_UP":14.2891977566447,
+"C-20_PICK_UP":15.0511170011359,
+"C-35":10.5795832603747,
+"CAPTIVA_2.4L":4.26068322198412,
+"CAPTIVA_3.6L":7.6041038020519,
+"CAVALIER":16.4796633941094,
+"CAVALIER_4CIL":11.6395248210212,
+"CHEVY":13.270386168973,
+"CHEVY_C2":11.2904103460159,
+"CHEVY_POP":14.6994354035204,
+"CHEVY_STATION_WAGON":14,
+"CORSA_HATCHBACK":8.08117412574742,
+"CORSA_HB":8.9940119760479,
+"CORSA_NOTCHBACK":6.3773045259537,
+"CRUZE":1.64171399070728,
+"EQUINOX":2.51744765702891,
+"EXPRESS_VAN_8PASAJEROS":5.8132469110796,
+"EXPRESS_VAN_8PASAJEROS 6CIL":7.76014109347443,
+"MALIBU 4CIL_2.2L":4.15313621603145,
+"MALIBU 4CIL_2.4L":8.30670926517572,
+"MALIBU 6CIL_3.5L":4.44104134762634,
+"MERIVA":6.42784838600832,
+"MONZA":13.460631247894,
+"OLDSMOBILE_CUTLASS":16.052949872329,
+"OPTRA":2.6534226108129,
+"SILVERADO":13.1405514458642,
+"SILVERADO_1500_C":5.94102341717259,
+"SONIC":0.849963045084996,
+"SPARK":1.09149277688604,
+"SUBURBAN_5.3L":2.48696947133284,
+"SUBURBAN_5.7L":13.147822954658,
+"TORNADO":8.72224739465338,
+"TRACKER":6.99345158624197,
+"UPLANDER":3.52121928787282,
+"TSURU_I":22.1938340998126,
+"TSURU_II":21.412864211105,
+"ICHI_VAN2.4L":20.3295612467739,
+"MAZDA-CX7_ESTATICO":19.2601291837933,
+"DATSUN":19.0748008086574,
+"FORD-F-350 5.4L":19.0180384661331,
+"CARIBE":18.9345489182202,
+"GOLF_1.6L":18.8527202367403,
+
+
+"VERSA":1.22709291999677,
+"ACCORD_V6_EX.4L":1.27242066533803,
+"ACCORD_L4_EX":1.28689087165408,
+"CLASICO_2.0":1.3648893968937,
+"MARCH_1.6L":1.41347605324551,
+"MAZDA3_2.5L":1.5172145496985
+
+
+};
+
+function change() {
+d3.selectAll(".node").remove();
+d3.json("flare2.json", function(error, root) {
+	
+  var node = svg.selectAll(".node")
+      .data(bubble.nodes(classes(root))
+      .filter(function(d) {   return !d.children; }))
+      .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+	//etiq
+  	node.append("title")
+      .text(function(d) { return d.className + " porcentaje de no rechazo " + labdata[d.className]/*format(d.value);*/ });
+
+node.append("circle")
+      .attr("r", function(d) { return d.r; })
+      //.style("fill", function(d) { return color(d.packageName); });
+     .style("fill",function(d){ return colors(labdata[d.className])});
+
+// nombre de los circulitos
+  node.append("text")
+      .attr("dy", ".3em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.className.substring(0, d.r / 3); });
+
+});
+   /*****************/
+  }
+
+function changetomas() {
+d3.selectAll(".node").remove();
+d3.json("flare3.json", function(error, root) {
+  
+  var node = svg.selectAll(".node")
+      .data(bubble.nodes(classes(root))
+      .filter(function(d) {   return !d.children; }))
+      .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  //etiq
+    node.append("title")
+      .text(function(d) { return d.className + " porcentaje de rechazo " + labdata[d.className]/*format(d.value);*/ });
+
+node.append("circle")
+      .attr("r", function(d) { return d.r; })
+      //.style("fill", function(d) { return color(d.packageName); });
+     .style("fill",function(d){ return colors(labdata[d.className])});
+
+// nombre de los circulitos
+  node.append("text")
+      .attr("dy", ".3em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.className.substring(0, d.r / 3); });
+
+});
+   /*****************/
+  }
+
+var diameter = 900,
+    format = d3.format(",d"),
+    color =  d3.scale.category10();//d3.scale.category20c();
+
+
+
+var bubble = d3.layout.pack()
+    .sort(null)
+    .size([diameter, diameter])
+    .padding(1.5);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .attr("class", "bubble");
+
+
+d3.json("flare.json", function(error, root) {
+	
+  var node = svg.selectAll(".node")
+      .data(bubble.nodes(classes(root))
+      .filter(function(d) {   return !d.children; }))
+      .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+	//etiq
+  	node.append("title")
+      .text(function(d) { return d.className + " porcentaje de rechazo " + labdata[d.className]/*format(d.value);*/ });
+
+node.append("circle")
+      .attr("r", function(d) { return d.r; })
+      //.style("fill", function(d) { return color(d.packageName); });
+     .style("fill",function(d){ console.log(colors(labdata[d.className]));return colors(labdata[d.className])});
+
+// nombre de los circulitos
+  node.append("text")
+      .attr("dy", ".3em")
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.className.substring(0, d.r / 3); });
+
+});
+
+
+// Returns a flattened hierarchy containing all leaf nodes under the root.
+
+function classes(root) {
+  var classes = [];
+
+  function recurse(name, node) {
+    if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+    else classes.push({packageName: name, className: node.name, value: node.size});
+  }
+
+  recurse(null, root);
+  return {children: classes};
+}
+
+d3.select(self.frameElement).style("height", diameter + "px");
+
+</script>
