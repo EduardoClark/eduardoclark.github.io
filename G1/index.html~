@@ -276,6 +276,6 @@ function classes(root) {
   return {children: classes};
 }
 
-d3.select(self.frameElement).style("height", diameter + "px");
+d3.select(self.frameElement).style(height + "px", diameter + "px");
 
 </script>
