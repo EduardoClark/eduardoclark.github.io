@@ -169,7 +169,6 @@ class BubbleChart
       .attr("x", (d) => years_x[d] )
       .attr("y", 40)
       .attr("text-anchor", "middle")
-.text(function(d) { return d.grant_title; } ); 
       .text((d) -> d)
 
     

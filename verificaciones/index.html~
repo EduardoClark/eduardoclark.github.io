@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<title>Verificaciones en el DF | VisTec2013 </title>
+	<title>Verificaciones en el DF | #VisTec2013 </title>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/stickyFooter.css" media="all" />
@@ -72,9 +72,10 @@
 <br>
 ¿Cúales son los coches más <br>
 populares y que tanto son rechazados en la verificación?
+<br><br>
 <hr width="930" size="10px" color="#4582E7">
 
-<iframe src="http://eduardoclark.github.io/G1" width=100% height=1000px></iframe>
+<iframe src="http://eduardoclark.github.io/G1/index.html" width=100% height=1200px></iframe>
 
 
 
