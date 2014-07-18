@@ -10,19 +10,21 @@ categories: jekyll update
 
 <p align="justify"> Recently I was approached by one of Mexico's most popular sport websites, <a href="http://www.mediotiempo.com/" target="_blank">MedioTiempo.com</a> with a question. Does football increase violence and criminal incidence? One of the things they wanted to know was if first division football (<a href="http://www.ligamx.net/index.html" target="_blank"> Liga MX</a>) games in Mexico altered the number of crimes commited in the home city of the playing team. Right away I though this was a really good question and started mindstorming about some possible ways to find out. This post is about one idea I had to test for this and the results I found. Hopefully a cooler and more visual post will come out soon at mediotiempo.com.</p>
 
+<!-- more -->
+
 <p align="justify"> Due to the quality and availability of data the only way possible (that I could think of) was restricting the analysis to only include homicides, this mostly due to the fact that no criminal incidence data in Mexico is dissagregated to the daily level. I considered that the most useful dataset for this task was Mexico's mortality database (<a href="http://www.sinais.salud.gob.mx/basesdedatos/std_defunciones.html" target="_blank">SINAIS</a>) that is released yearly by INEGI. This dataset includes all registered deaths in Mexico since 1998 (and through 2011 as of september 2013)  at the death certificate level. This allows for the creation of daily homicide counts for every city or metropolitan area with first division football. For the game data I scrapped several mexican sport websites that included information about the teams involved, the date, location and results of the game. I was able to compile the complete set of mexican first division football games for the years 2007-2013. After merging the two datasets the results was a 29,234 observations panel dataset that included homidice counts for every day between 2007 and 2011 for the 16 mexican cities that have had first division football teams in this period. Table 1 summarizes the number of observations by day of the week and if they had games or not. Table 2 shows the total number of game days for each of the metropolitan areas. </p>
 
-<img align='center' src="/Frames/P3A.jpg" style='WIDTH: 80%; HEIGHT: 80%;margin:auto;display:block;' >
+<img align='center' src="/images/P3A.jpg" style='WIDTH: 80%; HEIGHT: 80%;margin:auto;display:block;' >
 
 <p align="justify"> Firstly I ran a series of test of means to see if there was a significant difference in the number of homicides per metropolitan area on those days in which a local team played either home or away. It seemed that game days had on average 0.6 more homicides than non game days. Similar differences were found when analising different days of the week, where statistically significant differences were found for wednesdays, thursdays, fridays and saturdays. The results for the effect of Home vs Away games were less clear and in general it seems to suggest that the higher number of homicides are more directly related with the local team playing (regardless of location) than with the actual physical game happening within the metropolitan area. Table 3 shows these results. </p>
 
-<img align='center' src="/Frames/P3B.jpg" style='WIDTH: 80%; HEIGHT: 80%;margin:auto;display:block;' >
+<img align='center' src="/images/P3B.jpg" style='WIDTH: 80%; HEIGHT: 80%;margin:auto;display:block;' >
 
 <p></p>
 
 <p align="justify"> For the actual econometric model I decided to implement a negative binomial regression model similar to the one described by Cameron and Trivendi (1986), Grootendorst (2002) and used by Rees and Schnepel (2010). In this type of model the number of homicides reported depends on on whether a football game was played by the local team. The following equations describe the chosen econometric models: </p>
 
-<img align='center' src="/Frames/P3C.jpg" style='WIDTH: 80%; HEIGHT: 80%;margin:auto;display:block;' >
+<img align='center' src="/images/P3C.jpg" style='WIDTH: 80%; HEIGHT: 80%;margin:auto;display:block;' >
 
 <p></p>
 
@@ -124,7 +126,7 @@ categories: jekyll update
 
 <h3> Thanks for reading!! </h3>
 
-<p align="justify"> PS: The code to replicate will be up on my github in a few days time, send me and email if you are interested and I haven't uploaded it. </p> 
+<p align="justify"> PS: The code to replicate will be up on my github is available <a href="https://github.com/EduardoClark/Football-Homicides">here</a>. </p> 
 
 <p align="justify"> PPS: I ran a wide load of robustness checks and model fit tests, you'll be able to see them on my code once it's on my github. Most alterations did not yield significantly different results or better model fits. </p>
 
