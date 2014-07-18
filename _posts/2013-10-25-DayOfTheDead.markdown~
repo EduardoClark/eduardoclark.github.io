@@ -16,8 +16,10 @@ categories: jekyll update
 
 You can find the full webtool and complete instructions <a href="http://eduardoclark.github.io/DiaDeMuertos" target="_blank">here</a>.
 
-<iframe src="http://eduardoclark.github.io/DiaDeMuertos" id='aire' width="1160" height="1550" frameBorder="0" name="calc-aire" >></iframe>
+<div id="wrap" style="width: 1150px; height: 1500px; padding: 0; overflow: hidden;">
 
+<iframe src="http://eduardoclark.github.io/DiaDeMuertos" id='aire' width="1200" height="1500" frameBorder="0" name="calc-aire" style="width=1200px;zoom: 0.65; -moz-transform: scale(0.65); -moz-transform-origin: 0 0;" ></iframe>
 
+</div>
 
 
