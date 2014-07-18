@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Do football games increase homicides in Mexico?"
+image:
+  feature: Scotland_Forever.jpg
+  background: triangular.png
 date:   2013-09-24 13:17:15
 categories: jekyll update
 ---
@@ -126,7 +129,7 @@ categories: jekyll update
 
 <h3> Thanks for reading!! </h3>
 
-<p align="justify"> PS: The code to replicate will be up on my github in a few days time, send me and email if you are interested and I haven't uploaded it. </p> 
+<p align="justify"> PS: The code to replicate will be up on my github is available <a href="https://github.com/EduardoClark/Football-Homicides">here</a>. </p> 
 
 <p align="justify"> PPS: I ran a wide load of robustness checks and model fit tests, you'll be able to see them on my code once it's on my github. Most alterations did not yield significantly different results or better model fits. </p>
 

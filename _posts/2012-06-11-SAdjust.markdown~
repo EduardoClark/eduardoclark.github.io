@@ -3,6 +3,7 @@ layout: post
 title:  "Seasonal adjustment of Mexico's homicide database"
 date:   2013-07-02 13:17:15
 categories: jekyll update
+
 ---
 
 <p align="justify"> Every month (around the 15th) the national public safety system <a href="http://www.secretariadoejecutivo.gob.mx/">(SNSP)</a> releases information regarding the number of crimes commited in Mexico, this information comes from the local (state) district attorney's office who compile information about the number of crimes commited for something like 10 or so different fellonies and then submit it to the SNSP who publishes the data at the state and national level. </p>

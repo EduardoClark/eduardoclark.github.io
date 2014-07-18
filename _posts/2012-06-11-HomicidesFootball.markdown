@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Do football games increase homicides in Mexico?"
+image:
+  feature: Scotland_Forever.jpg
+  
 date:   2013-09-24 13:17:15
 categories: jekyll update
 ---
