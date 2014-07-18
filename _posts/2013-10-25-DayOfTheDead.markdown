@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "What do mexicans die of? Day of the Dead special"
+image:
+  feature: abstract-1.jpg
 date:   2013-10-28 20:15:41
 categories: jekyll update
 ---
