@@ -1,0 +1,27 @@
+[{
+    "name": "flare.analytics.BajaCalifornia.NoEspecificado",
+    "size": 2000,
+    "imports": ["flare.analytics.BajaCalifornia.TIJUANA"]
+}, {
+    "name": "flare.analytics.BajaCalifornia.TECATE",
+    "size": 2000,
+    "imports": ["flare.analytics.BajaCalifornia.TIJUANA"]
+}, {
+    "name": "flare.analytics.BajaCalifornia.TIJUANA",
+    "size": 2000,
+    "imports": ["flare.analytics.BajaCalifornia.ENSENADA"]
+}, {
+    "name": "flare.analytics.BajaCalifornia.PLAYASDEROSARITO",
+    "size": 2000,
+    "imports": ["flare.analytics.BajaCalifornia.TIJUANA"]
+
+},
+{
+    "name": "flare.analytics.BajaCalifornia.ENSENADA",
+    "size": 2000,
+    "imports": []
+
+}
+
+
+]

@@ -1,0 +1,961 @@
+[{
+    "name": "flare.analytics.DistritoFederal.NoEspecificado",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.ATIZAPAN"]
+}, {
+    "name": "flare.analytics.DistritoFederal.AZCAPOTZALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.TLALNEPANTLADEBAZ"]
+}, {
+    "name": "flare.analytics.DistritoFederal.COYOACAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.LAMAGDALENACONTRERAS", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.TLALNEPANTLADEBAZ"]
+}, {
+    "name": "flare.analytics.DistritoFederal.CUAJIMALPADEMORELOS",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO"]
+}, {
+    "name": "flare.analytics.DistritoFederal.GUSTAVOAMADERO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.LAMAGDALENACONTRERAS", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.CHIMALHUACAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ"]
+}, {
+    "name": "flare.analytics.DistritoFederal.IZTACALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.NEZAHUALCOYOTL"]
+}, {
+    "name": "flare.analytics.DistritoFederal.IZTAPALAPA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.COYOACAN", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTACALCO", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLAHUAC", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.TEXCOCO", "flare.analytics.México.VALLEDECHALCOSOLIDARIDAD"]
+}, {
+    "name": "flare.analytics.DistritoFederal.LAMAGDALENACONTRERAS",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO"]
+}, {
+    "name": "flare.analytics.DistritoFederal.MILPAALTA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA"]
+}, {
+    "name": "flare.analytics.DistritoFederal.ALVAROOBREGON",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.COYOACAN", "flare.analytics.DistritoFederal.CUAJIMALPADEMORELOS", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NEZAHUALCOYOTL"]
+}, {
+    "name": "flare.analytics.DistritoFederal.TLAHUAC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.COYOACAN", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.MILPAALTA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.CHALCO"]
+}, {
+    "name": "flare.analytics.DistritoFederal.TLALPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.COYOACAN", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.MILPAALTA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLAHUAC", "flare.analytics.DistritoFederal.XOCHIMILCO", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO"]
+}, {
+    "name": "flare.analytics.DistritoFederal.XOCHIMILCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.MILPAALTA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLAHUAC", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.NEZAHUALCOYOTL"]
+}, {
+    "name": "flare.analytics.DistritoFederal.BENITOJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO"]
+}, {
+    "name": "flare.analytics.DistritoFederal.CUAUHTEMOC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.COYOACAN", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTACALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA"]
+}, {
+    "name": "flare.analytics.DistritoFederal.MIGUELHIDALGO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.NAUCALPANDEJUAREZ"]
+}, {
+    "name": "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTACALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.LAPAZ"]
+}, {
+    "name": "flare.analytics.Hidalgo.ACATLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULANCINGODEBRAVO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ACAXOCHITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.METEPEC", "flare.analytics.Hidalgo.TULANCINGODEBRAVO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ACTOPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.AGUABLANCADEITURBIDE",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.TULANCINGODEBRAVO"]
+}, {
+    "name": "flare.analytics.Hidalgo.AJACUBA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ALFAJAYUCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ALMOLOYA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Hidalgo.APAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Hidalgo.ELARENAL",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.ACTOPAN", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ATLAPEXCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Hidalgo.HUEJUTLADEREYES"]
+}, {
+    "name": "flare.analytics.Hidalgo.ATOTONILCOELGRANDE",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ATOTONILCODETULA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.CALNALI",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.CARDONAL",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.CUAUTEPECDEHINOJOSA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULANCINGODEBRAVO"]
+}, {
+    "name": "flare.analytics.Hidalgo.CHAPANTONGO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.CHILCUAUTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ELOXOCHITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.EMILIANOZAPATA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.APAN"]
+}, {
+    "name": "flare.analytics.Hidalgo.EPAZOYUCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.FRANCISCOIMADERO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.ACTOPAN", "flare.analytics.Hidalgo.ELARENAL", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.HUASCADEOCAMPO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.ATOTONILCOELGRANDE"]
+}, {
+    "name": "flare.analytics.Hidalgo.HUAUTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES"]
+}, {
+    "name": "flare.analytics.Hidalgo.HUEHUETLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.METEPEC", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.SANBARTOLOTUTOTEPEC"]
+}, {
+    "name": "flare.analytics.Hidalgo.HUEJUTLADEREYES",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.HUICHAPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.IXMIQUILPAN", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.ZUMPANGO"]
+}, {
+    "name": "flare.analytics.Hidalgo.IXMIQUILPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULADEALLENDE"]
+}, {
+    "name": "flare.analytics.Hidalgo.JALTOCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES"]
+}, {
+    "name": "flare.analytics.Hidalgo.LOLOTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.METZTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.ZACUALTIPANDEANGELES"]
+}, {
+    "name": "flare.analytics.Hidalgo.MINERALDELMONTE",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.IXMIQUILPAN"]
+}, {
+    "name": "flare.analytics.Hidalgo.MIXQUIAHUALADEJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.Hidalgo.IXMIQUILPAN", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULADEALLENDE"]
+}, {
+    "name": "flare.analytics.Hidalgo.MOLANGODEESCAMILLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.TLANCHINOL", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.Hidalgo.NICOLASFLORES",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.SANFELIPEORIZATLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES"]
+}, {
+    "name": "flare.analytics.Hidalgo.PACHUCADESOTO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.Hidalgo.ACTOPAN", "flare.analytics.Hidalgo.TIZAYUCA", "flare.analytics.Hidalgo.TULANCINGODEBRAVO", "flare.analytics.México.HUEYPOXTLA"]
+}, {
+    "name": "flare.analytics.Hidalgo.PISAFLORES",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.PROGRESODEOBREGON",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.MINERALDELAREFORMA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.SANAGUSTINTLAXIACA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.ACTOPAN", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.SANBARTOLOTUTOTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.NEZAHUALCOYOTL"]
+}, {
+    "name": "flare.analytics.Hidalgo.SANSALVADOR",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.SANTIAGODEANAYA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.SINGUILUCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULANCINGODEBRAVO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TASQUILLO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.IXMIQUILPAN", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TENANGODEDORIA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TEPEAPULCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Hidalgo.APAN", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TEPEHUACANDEGUERRERO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES", "flare.analytics.Hidalgo.TLANCHINOL", "flare.analytics.Hidalgo.ZACUALTIPANDEANGELES"]
+}, {
+    "name": "flare.analytics.Hidalgo.TEPEJIDELRIODEOCAMPO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.Hidalgo.TULADEALLENDE", "flare.analytics.México.CUAUTITLAN"]
+}, {
+    "name": "flare.analytics.Hidalgo.TEPETITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TETEPANGO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.VILLADETEZONTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TEZONTEPECDEALDAMA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Hidalgo.MIXQUIAHUALADEJUAREZ", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULADEALLENDE", "flare.analytics.México.ATIZAPANDEZARAGOZA"]
+}, {
+    "name": "flare.analytics.Hidalgo.TIZAYUCA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TEPEAPULCO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TLAHUELILPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.ACTOPAN", "flare.analytics.Hidalgo.MIXQUIAHUALADEJUAREZ"]
+}, {
+    "name": "flare.analytics.Hidalgo.TLANCHINOL",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES"]
+}, {
+    "name": "flare.analytics.Hidalgo.TLAXCOAPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TULADEALLENDE",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Hidalgo.MIXQUIAHUALADEJUAREZ", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.TULANCINGODEBRAVO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.Hidalgo.METEPEC", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.XOCHICOATLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.YAHUALICA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.ATLAPEXCO", "flare.analytics.Hidalgo.IXMIQUILPAN"]
+}, {
+    "name": "flare.analytics.Hidalgo.ZACUALTIPANDEANGELES",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.HUEJUTLADEREYES", "flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ZAPOTLANDEJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ZEMPOALA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO"]
+}, {
+    "name": "flare.analytics.Hidalgo.ZIMAPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.IXMIQUILPAN", "flare.analytics.Hidalgo.JACALADELEDEZMA", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.SANTIAGODEANAYA"]
+}, {
+    "name": "flare.analytics.México.NoEspecificado",
+    "size": 3800,
+    "imports": ["flare.analytics.México.CHICOLOAPAN"]
+}, {
+    "name": "flare.analytics.México.ACAMBAY",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.ACULCO", "flare.analytics.México.ATLACOMULCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ACOLMAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ALMOLOYADEALQUISIRAS",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ALMOLOYADEJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.METEPEC", "flare.analytics.México.TOLUCA", "flare.analytics.México.VILLAVICTORIA"]
+}, {
+    "name": "flare.analytics.México.ALMOLOYADELRIO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.AMANALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.México.TOLUCA", "flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.AMATEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TEJUPILCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.AMECAMECA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.IZTACALCO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.CHALCO"]
+}, {
+    "name": "flare.analytics.México.APAXCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO"]
+}, {
+    "name": "flare.analytics.México.ATENCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.NEZAHUALCOYOTL"]
+}, {
+    "name": "flare.analytics.México.ATIZAPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ATIZAPANDEZARAGOZA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA", "flare.analytics.México.TULTITLAN", "flare.analytics.México.CUAUTITLANIZCALLI"]
+}, {
+    "name": "flare.analytics.México.ATLACOMULCO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ATLAUTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.AMECAMECA", "flare.analytics.México.TEXCOCO"]
+}, {
+    "name": "flare.analytics.México.AXAPUSCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.METEPEC"]
+}, {
+    "name": "flare.analytics.México.CALIMAYA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.CAPULHUAC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.COACALCODEBERRIOZABAL",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA", "flare.analytics.México.TULTITLAN"]
+}, {
+    "name": "flare.analytics.México.COATEPECHARINAS",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.COCOTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.CHALCO"]
+}, {
+    "name": "flare.analytics.México.COYOTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.TEOLOYUCAN", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA", "flare.analytics.México.CUAUTITLANIZCALLI"]
+}, {
+    "name": "flare.analytics.México.CUAUTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.COACALCODEBERRIOZABAL", "flare.analytics.México.CUAUTITLANIZCALLI"]
+}, {
+    "name": "flare.analytics.México.CHALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.TLAHUAC", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.CHIMALHUACAN", "flare.analytics.México.METEPEC", "flare.analytics.México.NICOLASROMERO", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ"]
+}, {
+    "name": "flare.analytics.México.CHAPADEMOTA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATLACOMULCO", "flare.analytics.México.METEPEC", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.CHIAUTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TEXCOCO"]
+}, {
+    "name": "flare.analytics.México.CHICOLOAPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.LAPAZ", "flare.analytics.México.TEXCOCO", "flare.analytics.México.VALLEDECHALCOSOLIDARIDAD"]
+}, {
+    "name": "flare.analytics.México.CHICONCUAC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TEXCOCO"]
+}, {
+    "name": "flare.analytics.México.CHIMALHUACAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.DONATOGUERRA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA", "flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.ECATEPECDEMORELOS",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.COACALCODEBERRIOZABAL", "flare.analytics.México.METEPEC", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA", "flare.analytics.México.TULTITLAN"]
+}, {
+    "name": "flare.analytics.México.ECATZINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.AMECAMECA", "flare.analytics.México.TEMAMATLA", "flare.analytics.México.TEPETLIXPA"]
+}, {
+    "name": "flare.analytics.México.HUEHUETOCA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.COACALCODEBERRIOZABAL", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.HUEYPOXTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.ZUMPANGO"]
+}, {
+    "name": "flare.analytics.México.HUIXQUILUCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ISIDROFABELA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATIZAPANDEZARAGOZA"]
+}, {
+    "name": "flare.analytics.México.IXTAPALUCA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.CHALCO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.METEPEC", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.LAPAZ", "flare.analytics.México.SANFELIPEDELPROGRESO", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.VALLEDECHALCOSOLIDARIDAD"]
+}, {
+    "name": "flare.analytics.México.IXTAPANDELASAL",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.IXTAPANDELORO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.IXTLAHUACA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.METEPEC", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.XALATLACO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.METEPEC", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.JALTENCO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.ECATEPECDEMORELOS"]
+}, {
+    "name": "flare.analytics.México.JILOTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TULADEALLENDE", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA", "flare.analytics.México.VILLADELCARBON"]
+}, {
+    "name": "flare.analytics.México.JILOTZINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.NAUCALPANDEJUAREZ"]
+}, {
+    "name": "flare.analytics.México.JIQUIPILCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.IXTLAHUACA", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TEMOAYA", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.JOCOTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATLACOMULCO", "flare.analytics.México.IXTLAHUACA", "flare.analytics.México.SANFELIPEDELPROGRESO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.JOQUICINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TENANCINGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.JUCHITEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.AMECAMECA"]
+}, {
+    "name": "flare.analytics.México.LERMA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.METEPEC", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.SANMATEOATENCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.MALINALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TENANCINGO"]
+}, {
+    "name": "flare.analytics.México.MELCHOROCAMPO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.COACALCODEBERRIOZABAL", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.METEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.MEXICALTZINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.MORELOS",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.IXTLAHUACA", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.NAUCALPANDEJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.NEZAHUALCOYOTL",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTACALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.ALVAROOBREGON", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.CHICOLOAPAN", "flare.analytics.México.CHIMALHUACAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.LAPAZ", "flare.analytics.México.VALLEDECHALCOSOLIDARIDAD"]
+}, {
+    "name": "flare.analytics.México.NEXTLALPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.ZUMPANGO"]
+}, {
+    "name": "flare.analytics.México.NICOLASROMERO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.METEPEC", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.NOPALTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.OTUMBA"]
+}, {
+    "name": "flare.analytics.México.OCOYOACAC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.CAPULHUAC", "flare.analytics.México.METEPEC", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.OCUILAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TENANCINGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ELORO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATLACOMULCO"]
+}, {
+    "name": "flare.analytics.México.OTUMBA",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.AMECAMECA", "flare.analytics.México.ECATEPECDEMORELOS"]
+}, {
+    "name": "flare.analytics.México.OTZOLOAPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.OTZOLOTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.METEPEC", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.OZUMBA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.AMECAMECA"]
+}, {
+    "name": "flare.analytics.México.LAPAZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.CHIMALHUACAN", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.POLOTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.SANANTONIOLAISLA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.SANFELIPEDELPROGRESO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATLACOMULCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.SANMARTINDELASPIRAMIDES",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ECATEPECDEMORELOS"]
+}, {
+    "name": "flare.analytics.México.SANMATEOATENCO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.SANTOTOMAS",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA", "flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.SOYANIQUILPANDEJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.México.ATLACOMULCO"]
+}, {
+    "name": "flare.analytics.México.SULTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TECAMAC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.Hidalgo.TIZAYUCA", "flare.analytics.México.ACOLMAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.HUEYPOXTLA"]
+}, {
+    "name": "flare.analytics.México.TEJUPILCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TEMASCALAPA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.ECATEPECDEMORELOS"]
+}, {
+    "name": "flare.analytics.México.TEMASCALCINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATLACOMULCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TEMASCALTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TEMOAYA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TENANCINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TENANGODELVALLE",
+    "size": 3800,
+    "imports": ["flare.analytics.México.JOQUICINGO", "flare.analytics.México.TENANCINGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TEOLOYUCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.COACALCODEBERRIOZABAL", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NICOLASROMERO"]
+}, {
+    "name": "flare.analytics.México.TEOTIHUACAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.XOCHIMILCO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.Hidalgo.PACHUCADESOTO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NEZAHUALCOYOTL"]
+}, {
+    "name": "flare.analytics.México.TEPETLAOXTOC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.TEXCOCO", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.México.TEPETLIXPA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC"]
+}, {
+    "name": "flare.analytics.México.TEPOTZOTLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.CUAUTITLANIZCALLI"]
+}, {
+    "name": "flare.analytics.México.TEQUIXQUIAC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.TLALNEPANTLADEBAZ"]
+}, {
+    "name": "flare.analytics.México.TEXCALTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TEXCALYACAC",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TENANCINGO"]
+}, {
+    "name": "flare.analytics.México.TEXCOCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.ATENCO", "flare.analytics.México.CHICONCUAC", "flare.analytics.México.CHIMALHUACAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.México.TEZOYUCA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.TEXCOCO"]
+}, {
+    "name": "flare.analytics.México.TIANGUISTENCO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.XALATLACO", "flare.analytics.México.METEPEC", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TLALMANALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.México.CHALCO"]
+}, {
+    "name": "flare.analytics.México.TLALNEPANTLADEBAZ",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.MILPAALTA", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NICOLASROMERO", "flare.analytics.México.TOLUCA", "flare.analytics.México.TULTITLAN"]
+}, {
+    "name": "flare.analytics.México.TLATLAYA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.AMANALCO", "flare.analytics.México.TEJUPILCO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TOLUCA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.México.METEPEC", "flare.analytics.México.SANMATEOATENCO", "flare.analytics.México.TENANCINGO"]
+}, {
+    "name": "flare.analytics.México.TONATICO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TULTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.NoEspecificado", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.CUAUTITLANIZCALLI"]
+}, {
+    "name": "flare.analytics.México.TULTITLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.COACALCODEBERRIOZABAL", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA", "flare.analytics.México.CUAUTITLANIZCALLI"]
+}, {
+    "name": "flare.analytics.México.VALLEDEBRAVO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.VILLADEALLENDE",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.México.TOLUCA", "flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.VILLADELCARBON",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.IXTLAHUACA", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.VILLAGUERRERO",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.TENANCINGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.VILLAVICTORIA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.METEPEC", "flare.analytics.México.SANFELIPEDELPROGRESO", "flare.analytics.México.TOLUCA", "flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.XONACATLAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ZACUALPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.IXTAPANDELASAL", "flare.analytics.México.METEPEC", "flare.analytics.México.TEXCALTITLAN", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ZINACANTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ZUMPAHUACAN",
+    "size": 3800,
+    "imports": ["flare.analytics.México.TENANCINGO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.ZUMPANGO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.METEPEC", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.NEXTLALPAN", "flare.analytics.México.TECAMAC"]
+}, {
+    "name": "flare.analytics.México.CUAUTITLANIZCALLI",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.México.ATIZAPANDEZARAGOZA", "flare.analytics.México.CUAUTITLAN", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.VALLEDECHALCOSOLIDARIDAD",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.DistritoFederal.IZTACALCO", "flare.analytics.DistritoFederal.IZTAPALAPA", "flare.analytics.DistritoFederal.TLAHUAC", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.BENITOJUAREZ", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.DistritoFederal.MIGUELHIDALGO", "flare.analytics.DistritoFederal.VENUSTIANOCARRANZA", "flare.analytics.México.CHALCO", "flare.analytics.México.ECATEPECDEMORELOS", "flare.analytics.México.NAUCALPANDEJUAREZ", "flare.analytics.México.NEZAHUALCOYOTL", "flare.analytics.México.LAPAZ", "flare.analytics.México.TEXCOCO", "flare.analytics.México.TLALNEPANTLADEBAZ"]
+}, {
+    "name": "flare.analytics.México.LUVIANOS",
+    "size": 3800,
+    "imports": ["flare.analytics.México.METEPEC", "flare.analytics.México.TEJUPILCO", "flare.analytics.México.TOLUCA", "flare.analytics.México.VALLEDEBRAVO"]
+}, {
+    "name": "flare.analytics.México.SANJOSEDELRINCON",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.AZCAPOTZALCO", "flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.México.LAPAZ", "flare.analytics.México.SANFELIPEDELPROGRESO", "flare.analytics.México.TOLUCA"]
+}, {
+    "name": "flare.analytics.México.TONANITLA",
+    "size": 3800,
+    "imports": ["flare.analytics.México.ECATEPECDEMORELOS"]
+}, {
+    "name": "flare.analytics.Tlaxcala.AMAXACDEGUERRERO",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.CUAUHTEMOC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.APETATITLANDEANTONIOCARVAJAL",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.CHIAUTEMPAN"]
+}, {
+    "name": "flare.analytics.Tlaxcala.ATLANGATEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.ALTZAYANCA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.APIZACO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.CALPULALPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.DistritoFederal.CUAUHTEMOC", "flare.analytics.Tlaxcala.APETATITLANDEANTONIOCARVAJAL", "flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.ELCARMENTEQUEXQUITLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.APETATITLANDEANTONIOCARVAJAL", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.CHIAUTEMPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.SANTACRUZTLAXCALA", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.MUÑOZDEDOMINGOARENAS",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.APIZACO"]
+}, {
+    "name": "flare.analytics.Tlaxcala.HUAMANTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.HUEYOTLIPAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.IXTACUIXTLADEMARIANOMATAMOROS",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.MAZATECOCHCODEJOSEMARIAMORELOS",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TEOLOCHOLCO", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.CONTLADEJUANCUAMATZI",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TEPETITLADELARDIZABAL",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.ACUAMANALADEMIGUELHIDALGO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.PANOTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.TLALPAN", "flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANPABLODELMONTE",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANTACRUZTLAXCALA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TENANCINGO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TEOLOCHOLCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.ZACATELCO"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TEPEYANCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TERRENATE",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.XALOZTOC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TETLATLAHUCA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TLAXCALA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TLAXCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Hidalgo.APAN", "flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TOTOLAC",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.TZOMPANTEPEC",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.XALOZTOC",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.PAPALOTLADEXICOHTENCATL",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.XICOHTZINCO"]
+}, {
+    "name": "flare.analytics.Tlaxcala.XICOHTZINCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.YAUHQUEMECAN",
+    "size": 3800,
+    "imports": ["flare.analytics.DistritoFederal.GUSTAVOAMADERO", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.ZACATELCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.BENITOJUAREZ",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.LAMAGDALENATLALTELULCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANFRANCISCOTETLANOHCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANJOSETEACALCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.APIZACO"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANJUANHUACTZINCO",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.ZACATELCO"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANLORENZOAXOCOMANITLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANTAANANOPALUCAN",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA", "flare.analytics.Tlaxcala.TZOMPANTEPEC"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANTACATARINAAYOMETLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}, {
+    "name": "flare.analytics.Tlaxcala.SANTACRUZQUILEHTLA",
+    "size": 3800,
+    "imports": ["flare.analytics.Tlaxcala.TLAXCALA"]
+}]c
